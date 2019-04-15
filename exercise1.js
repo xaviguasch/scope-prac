@@ -1,22 +1,22 @@
-
-// For all of these, what is the value of a when the function gets called with the alert()
+// For all of these, what is the value of a when the function gets called with the console.log()
 // #1
 function q1() {
     var a = 5;
-    if(a > 1) {
+    if (a > 1) {
         a = 3;
     }
-    alert(a);
+    console.log(a);
 }
 
 //#2
 var a = 0;
+
 function q2() {
     a = 5;
 }
 
 function q22() {
-    alert(a);
+    console.log(a);
 }
 
 
@@ -27,20 +27,21 @@ function q3() {
 
 
 function q32() {
-    alert(a);
+    console.log(a);
 }
 
 //#4
 var a = 1;
+
 function q4() {
     var a = "test";
-    alert(a);
+    console.log(a);
 }
 
 //#5
 var a = 2;
 if (true) {
     var a = 5;
-    alert(a);
+    console.log(a);
 }
-alert(a);
+console.log(a);
